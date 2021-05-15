@@ -1,0 +1,25 @@
+Introduction
+Body
+	A brief history of keyboards.
+		The Teletype printer was the predecessor to the 
+		 keyboard as we know it.
+	The physical mechanisms.
+		Keys and switches
+		Matrices and circuits
+		on-board microcontroller
+	The software
+		Operating Systems use what is essentially a Teletype
+		 emulator in order to parse the scancodes when it
+		 recieves the scancode from the keyboard.
+		After that, it hands it off to what is known as the
+		 user space
+		 	User space vs Kernel Space
+			 volatile memory dedicated to running 
+			 applications. 
+			 	"Separating user space from kernel 
+			 	space protects the system from errant processes 
+			 	that could use up memory required by the 
+			 	operating system (OS). The result is a more 
+			 	stable system where memory leaks and program 
+			 	crashes do not affect the OS." ()
+Conclusion
